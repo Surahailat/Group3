@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Ammar\WebForm1.aspx" />
     <Content Include="Firas\WebForm1.aspx" />
+    <Content Include="Firas\WebForm2ff.aspx" />
     <Content Include="Khaled\WebForm1.aspx" />
     <Content Include="Rahaf\profile.aspx" />
     <Content Include="Rahaf\WebForm1.aspx" />
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="Firas\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Firas\WebForm2ff.aspx.cs">
+      <DependentUpon>WebForm2ff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Firas\WebForm2ff.aspx.designer.cs">
+      <DependentUpon>WebForm2ff.aspx</DependentUpon>
     </Compile>
     <Compile Include="Khaled\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
